@@ -1,6 +1,7 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"setenv FORWARD_COMPATIBLE 1
+    {"id":0,"file":"
+     setenv FORWARD_COMPATIBLE 1
 client
 server-poll-timeout 4
 nobind
@@ -98,6 +99,7 @@ MV+LEbp/FV0pixXKXHHEVB8=
 </key>
 
 key-direction 1
-<tls-auth>"}
+<tls-auth>"},
+      {"id":1,"file":""}
     ]
 }
