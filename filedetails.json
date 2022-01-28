@@ -1,7 +1,6 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"
-     setenv FORWARD_COMPATIBLE 1
+    {"id":0,"file":"setenv FORWARD_COMPATIBLE 1
 client
 server-poll-timeout 4
 nobind
@@ -99,7 +98,28 @@ MV+LEbp/FV0pixXKXHHEVB8=
 </key>
 
 key-direction 1
-<tls-auth>"},
-      {"id":1,"file":""}
+<tls-auth>
+#
+# 2048 bit OpenVPN static key (Server Agent)
+#
+-----BEGIN OpenVPN Static key V1-----
+ce8b227832ff3b283914ded3bff2a203
+4193aef341269d5a561d41e25efa9bf2
+14629f0548b6c70adb09844e41841afa
+37deb4489fda15b4e27352ede346cae4
+e72a0d5de7b20a9a6aa0e987bc97f9bc
+0eb8fb9be1cedbf93525aa0cb59641ba
+3acc8bb62f949ba4aaa25857ff3d4ac9
+ea33e80f20b5ae3cfce37068c117385e
+74c7841169d818a38fd2acb1ca3e8730
+147f48320d951fbd18d7975eb9442492
+17a1c9619482f39a72dad26039a48ac4
+e30cd2f60ea0ad8bd433c2f5f6279156
+9af0cfc22f476c995b35b42fdab44c7d
+0cbbfc16b934657076d187c9437e2058
+7ef785c25cdf931304142080a4204122
+901dc5580a95ce742078433f6f0c6f2d
+-----END OpenVPN Static key V1-----
+</tls-auth>"}
     ]
 }
