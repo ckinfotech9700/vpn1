@@ -1,7 +1,6 @@
 {
   "ovpn_file":[
     {"id":1,"file":"
---redirect-gateway
 setenv FORWARD_COMPATIBLE 1
 client
 server-poll-timeout 4
