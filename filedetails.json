@@ -24,7 +24,7 @@ rcvbuf 0
 comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
-
+--redirect-gateway
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYfN9nzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
