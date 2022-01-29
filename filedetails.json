@@ -19,6 +19,11 @@ setenv opt tls-version-min 1.0 or-highest
 reneg-sec 604800
 sndbuf 0
 rcvbuf 0
+     
+tun-ipv6
+push tun-ipv6
+ifconfig-ipv6 2001:db8:0:123::1 2001:db8:0:123::2
+     
 # NOTE: LZO commands are pushed by the Access Server at connect time.
 # NOTE: The below line doesn't disable LZO.
 comp-lzo no
