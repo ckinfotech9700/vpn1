@@ -1,6 +1,8 @@
 {
   "ovpn_file":[
-    {"id":1,"file":"setenv FORWARD_COMPATIBLE 1
+    {"id":1,"file":"
+--redirect-gateway
+setenv FORWARD_COMPATIBLE 1
 client
 server-poll-timeout 4
 nobind
@@ -24,7 +26,7 @@ rcvbuf 0
 comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
---redirect-gateway
+
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYfN9nzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
