@@ -120,6 +120,6 @@ e30cd2f60ea0ad8bd433c2f5f6279156
 901dc5580a95ce742078433f6f0c6f2d
 -----END OpenVPN Static key V1-----
 </tls-auth>
-  ip -6 addr $PREFIX dev tun0"}
+  ip -6 neigh add proxy 2001:0DB8:A::2 dev eth0"}
   ]
 }
