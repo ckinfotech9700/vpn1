@@ -25,7 +25,6 @@ comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
 
-ip -6 addr $PREFIX dev tun0
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYfN9nzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
