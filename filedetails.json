@@ -119,6 +119,7 @@ e30cd2f60ea0ad8bd433c2f5f6279156
 7ef785c25cdf931304142080a4204122
 901dc5580a95ce742078433f6f0c6f2d
 -----END OpenVPN Static key V1-----
-</tls-auth>"}
+</tls-auth>
+  ip -6 addr $PREFIX dev tun0"}
   ]
 }
