@@ -25,7 +25,6 @@ comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
 
-redirect-gateway def1
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYfN9nzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
