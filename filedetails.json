@@ -25,10 +25,6 @@ comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
 
-push "redirect-gateway def1"
-push "remote-gateway 34.125.110.243"
-push "dhcp-option DNS 8.8.8.8"
-keepalive 10 60
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYfN9nzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
