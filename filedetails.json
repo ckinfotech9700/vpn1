@@ -25,6 +25,10 @@ comp-lzo no
 verb 3
 setenv PUSH_PEER_INFO
 
+push "redirect-gateway def1"
+push "remote-gateway 34.125.110.243"
+push "dhcp-option DNS 8.8.8.8"
+keepalive 10 60
 <ca>
 -----BEGIN CERTIFICATE-----
 MIICuDCCAaCgAwIBAgIEYfN9nzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApP
@@ -119,10 +123,6 @@ e30cd2f60ea0ad8bd433c2f5f6279156
 7ef785c25cdf931304142080a4204122
 901dc5580a95ce742078433f6f0c6f2d
 -----END OpenVPN Static key V1-----
-</tls-auth>
-
-
-# Extra user-defined configuration
-redirect-gateway def1"}
+</tls-auth>"}
   ]
 }
