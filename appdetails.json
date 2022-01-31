@@ -17,6 +17,6 @@
   ],
   "free":[
     {"id":1, "file":0, "city":"Essen","country":"Germany","image":"germany","ip":"34.125.110.243","active":"true","signal":"a"},
-    {"id":1, "file":1, "city":"Essen","country":"Germany","image":"germany","ip":"34.125.110.243","active":"true","signal":"a"}
+    {"id":1, "file":1, "city":"United State","country":"United State","image":"germany","ip":"34.79.156.152","active":"true","signal":"a"}
   ]
 }
