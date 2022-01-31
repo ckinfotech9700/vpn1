@@ -136,8 +136,12 @@ remote 35.195.92.253 1194 udp
 remote 35.195.92.253 1194 udp
 remote 35.195.92.253 1194 udp
 remote 35.195.92.253 1194 udp
-dev tun
-dev-type tun
+dev tun-ipv6
+proto udp6
+ifconfig 10.1.0.2 10.1.0.1
+ifconfig-ipv6 fd00::2 fd00::1
+remote 2600:1f18:123e:b100:3b27:2d9e:e581:6774
+redirect-gateway ipv6 def1
 ns-cert-type server
 setenv opt tls-version-min 1.0 or-highest
 reneg-sec 604800
