@@ -1,0 +1,10 @@
+ sudo apt install iptables 
+sudo apt install traceroute
+
+iptables for ipv6 details-
+
+https://4sysops.com/archives/openvpn-ipv6-minimal-configuration/
+
+restart server(VM)
+
+
