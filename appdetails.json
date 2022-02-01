@@ -20,6 +20,7 @@
     {"id":1, "file":1, "city":"United State","country":"United State","image":"germany","ip":"35.195.92.253","active":"true","signal":"a"},
     {"id":2, "file":2, "city":"Seoul","country":"South Korea","image":"germany","ip":"34.64.103.119","active":"true","signal":"a"},
     {"id":3, "file":3, "city":"Mumbai","country":"India","image":"india","ip":"34.93.220.145","active":"true","signal":"a"},
-    {"id":4, "file":4, "city":"Tokyo","country":"Japan","image":"japan","ip":"34.84.54.217","active":"true","signal":"a"}
+    {"id":4, "file":4, "city":"Tokyo","country":"Japan","image":"japan","ip":"34.84.54.217","active":"true","signal":"a"},
+    {"id":5, "file":5, "city":"HongKong","country":"HongKong","image":"hongkong","ip":"34.92.113.168","active":"true","signal":"a"}
   ]
 }
